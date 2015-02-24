@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get 'comments/create'
 
-	resources :comments, only: [:new, :create]
+	resources :comments, only: [:new, :create, :index]
 	root to: 'comments#new'
 	
   get 'sessions/create'

@@ -14,6 +14,8 @@ gem 'omniauth-twitter'
 gem "figaro"
 gem 'bootstrap-sass'
 gem 'jquery-turbolinks'
+gem 'faye-rails', '~> 2.0'
+gem 'thin'
 
 group :development do
 	gem 'sqlite3'
